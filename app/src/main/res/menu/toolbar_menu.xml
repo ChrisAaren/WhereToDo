@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchView"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:iconifiedByDefault="false"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/add_item"
+        android:title="Add Item" />
+
+    <item
+        android:id="@+id/mapList"
+        android:title="Show Tasks in Google Maps" />
+
+    <item
+        android:id="@+id/clearChecked"
+        android:title="Clear Checked Tasks" />
+
+</menu>
